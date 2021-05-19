@@ -11,7 +11,7 @@ This repository contains code for a simple webpage - in fact, nearly the simples
 
 1) Contributions MUST be made as pull requests from a new branch to this repo (see Getting Started).
     - Branches should be named identifiably (for example, with your name).
-    - An example PR has been made to the repo already for reference () // TODO Link to example PR.
+    - [An example PR has been made to the repo already for reference](https://github.com/RileyHunter/best-worst-website/pull/2)
 1) The resulting webpage MUST render the words "Hello, World!" legibly in English on the current build of Google Chrome within a reasonable timeframe. You are otherwise completely free to decide how this happens.
 1) While this will not be strictly policed, this competition is intended to start on 2021-05-26 at 1530h NZST and comprise about 90 minutes work.
 1) Collaboration is discouraged - this is intended to be an individual exercise in creativity.
