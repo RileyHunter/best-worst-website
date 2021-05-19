@@ -39,6 +39,12 @@ Navigate to a sensible place to store source code (directly in C:/ #yolo), open 
 Then, create a new branch:
 `git checkout -b <YOUR_BRANCH_NAME_HERE>`
 
-Make your changes, and frequently along the way (or at least at the end), commit your changes
+Sync it to the remote repo:
+`git push --set-upstream origin <YOUR_BRANCH_NAME_HERE>`
+
+Make your changes, and frequently along the way (or at least at the end), commit your changes and sync:
 `git add .`
 `git commit -m "<YOUR_COMMIT_MESSAGE_HERE>"`
+`git push`
+
+Once you're all ready to go make sure you've done the above step, then start a pull request into `main` by going to [GitHub's branches page for the repo](https://github.com/RileyHunter/best-worst-website/branches), locating your branch by name, clicking "New pull request", then filling out and submitting the form.
