@@ -5,7 +5,7 @@ An arena for the "best worst" Hello World webpage you can think of
 
 ## Overview
 
-This repository contains code for a simple webpage - in fact, nearly the simplest webpage possible. All it does is print "Hello World" to the middle of the screen. Your mission, should you choose to accept it, is to submit a Pull Request to this repository containing the WORST possible contribution.
+This repository contains code for a simple webpage - in fact, nearly the simplest webpage possible. All it does is print "Hello World" to the middle of the screen. Your mission, should you choose to accept it, is to submit a Pull Request to this repository containing the WORST possible contribution while preserving this functionality.
 
 ## Rules and Guidelines
 
