@@ -1,4 +1,49 @@
 body {
-    text-align: center;
-    padding-top: calc(50vh - 2em);
+  text-align: center;
+  padding-top: calc(50vh - 2em);
+  display: flex;
+  justify-content: center;
+}
+
+.letter {
+  display: flex;
+  flex-wrap: wrap;
+  height: 64px;
+  width: 60px;
+  line-height: 0;
+  letter-spacing: -3px;
+}
+
+.letter_block {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s;
+  display: none;
+  transform: translateX(0) translateY(0);
+}
+
+.letter_block-normal {
+  margin: 0;
+  padding: 0;
+  transform: translateX(0) translateY(0);
+}
+
+.w {
+  color: white;
+}
+
+.btn {
+  position: absolute;
+  top: 100;
+}
+
+.hello {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-2 {
+  position: absolute;
+  top: 50;
 }
