@@ -4,6 +4,8 @@ const btn2 = document.querySelector(".btn-2");
 
 let scrambled = true;
 
+/* Randomizer Functions */
+
 function getRandomX() {
   let min = -500;
   let max = 500;
@@ -17,8 +19,8 @@ function getRandomY() {
 }
 
 function getRandomSymbol() {
-  const min = 9728;
-  const max = 9983;
+  let min = 9728;
+  let max = 9983;
   return Math.round(Math.random() * (max - min) + min);
 }
 
@@ -27,6 +29,8 @@ function getRandomRGBValue() {
   const max = 255;
   return Math.round(Math.random() * (max - min) + min);
 }
+
+/* scramble / un-scramble functions */
 
 function scramble() {
   blocks.forEach(
@@ -42,6 +46,8 @@ function setBackToNormal() {
     block.style.display = "block";
   });
 }
+
+/* loops */
 
 function loopScramble() {
   setInterval(() => {
@@ -70,6 +76,8 @@ function cycleEntity() {
   });
 }
 
+/* Button Handlers */
+
 function handleTranslateButtonClick() {
   setBackToNormal();
   scrambled = false;
@@ -82,6 +90,8 @@ function handleScrambleButtonClick() {
   loopCycleEntity();
 }
 
+/* Initialize */
+
 blocks.forEach((block) => {
   block.style.display = "block";
 });
@@ -89,6 +99,8 @@ blocks.forEach((block) => {
 scramble();
 loopScramble();
 loopCycleEntity();
+
+/* Event Listeners */
 
 btn.addEventListener("click", handleTranslateButtonClick);
 btn2.addEventListener("click", handleScrambleButtonClick);

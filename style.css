@@ -1,15 +1,26 @@
+/* Positioning */
+
 body {
   text-align: center;
   padding-top: calc(50vh - 2em);
   display: flex;
   justify-content: center;
 }
+.hello {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Letter Styling */
 
 .letter {
   display: flex;
   flex-wrap: wrap;
   height: 64px;
   width: 60px;
+
+  /* Squish together */
   line-height: 0;
   letter-spacing: -3px;
 }
@@ -17,8 +28,11 @@ body {
 .letter_block {
   margin: 0;
   padding: 0;
-  transition: all 0.95s ease-in-out;
+
+  /* When page first loads hide */
   display: none;
+
+  transition: all 0.95s ease-in-out;
   transform: translateX(0) translateY(0);
 }
 
@@ -32,15 +46,11 @@ body {
   color: white;
 }
 
+/* Buttons */
+
 .btn {
   position: absolute;
   top: 100;
-}
-
-.hello {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .btn-2 {
