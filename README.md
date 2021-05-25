@@ -1,4 +1,5 @@
 # best-worst-website
+
 An arena for the "best worst" Hello World webpage you can think of
 
 # Project Brief
@@ -9,15 +10,15 @@ This repository contains code for a simple webpage - in fact, nearly the simples
 
 ## Rules and Guidelines
 
-1) Contributions MUST be made as pull requests from a new branch to this repo (see Getting Started).
-    - Branches should be named identifiably (for example, with your name).
-    - [An example PR has been made to the repo already for reference](https://github.com/RileyHunter/best-worst-website/pull/2)
-1) The resulting webpage MUST render the words "Hello, World!" legibly in English on the current build of Google Chrome within a reasonable timeframe. You are otherwise completely free to decide how this happens, or what else might happen while doing it.
-1) While this will not be strictly policed, this competition is intended to start on 2021-05-26 at 1530h NZST and comprise about 90 minutes work.
-1) Collaboration is discouraged - this is intended to be an individual exercise in creativity.
-1) Your branch should be simple to clone and run.
-    - No 20GB `node_modules` folders please.
-    - If instructions are required to clone/build/run your branch, please include them in place of this `README.md` file.
+1. Contributions MUST be made as pull requests from a new branch to this repo (see Getting Started).
+   - Branches should be named identifiably (for example, with your name).
+   - [An example PR has been made to the repo already for reference](https://github.com/RileyHunter/best-worst-website/pull/2)
+1. The resulting webpage MUST render the words "Hello, World!" legibly in English on the current build of Google Chrome within a reasonable timeframe. You are otherwise completely free to decide how this happens, or what else might happen while doing it.
+1. While this will not be strictly policed, this competition is intended to start on 2021-05-26 at 1530h NZST and comprise about 90 minutes work.
+1. Collaboration is discouraged - this is intended to be an individual exercise in creativity.
+1. Your branch should be simple to clone and run.
+   - No 20GB `node_modules` folders please.
+   - If instructions are required to clone/build/run your branch, please include them in place of this `README.md` file.
 
 ## Judging
 
@@ -54,3 +55,10 @@ git push
 ```
 
 Once you're all ready to go make sure you've done the above step, then start a pull request into `main` by going to [GitHub's branches page for the repo](https://github.com/RileyHunter/best-worst-website/branches), locating your branch by name, clicking "New pull request", then filling out and submitting the form.
+
+# Disclaimer
+
+I did stick to loosley to a timeframe on this as to not spend too much time on it. As such the current bugs are as follows:
+
+1. SetIntervals stack ontop of each other everytime you press scramble - I need to go have a good look at how setInterval works in the callstack and the event loop.
+2. The hack way in which i have squished the entities together means that zooming in and out of the page / going down below 600ish screen size leads to a 'MissingNo' effect, looks cool but not intentional.

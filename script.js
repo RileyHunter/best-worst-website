@@ -66,7 +66,7 @@ function loopCycleEntity() {
     } else {
       return;
     }
-  }, 400);
+  }, 600);
 }
 
 function cycleEntity() {
@@ -79,8 +79,8 @@ function cycleEntity() {
 /* Button Handlers */
 
 function handleTranslateButtonClick() {
-  setBackToNormal();
   scrambled = false;
+  setBackToNormal();
 }
 
 function handleScrambleButtonClick() {
@@ -96,11 +96,11 @@ blocks.forEach((block) => {
   block.style.display = "block";
 });
 
-scramble();
-loopScramble();
-loopCycleEntity();
-
 /* Event Listeners */
 
 btn.addEventListener("click", handleTranslateButtonClick);
 btn2.addEventListener("click", handleScrambleButtonClick);
+
+scramble();
+loopScramble();
+loopCycleEntity();
