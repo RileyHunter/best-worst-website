@@ -1,9 +1,63 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+            <title>Welcome to Jagmeet's worst website</title>
+            <style>
+
+                body {
+                      font - family: Arial, Helvetica, sans-serif;
+                      margin: 0;
+                      padding: 0;
+                      background-color:aqua;
+                }
+                .navbar {
+                    overflow: hidden;
+                    background-color: white;
+                    position: sticky;
+                    position: -webkit-sticky;
+                    top: 0;
+                  }
+
+                .header {
+                      padding: 80px;
+                      text-align: center;
+                      background: #1abc9c;
+                      color: white;
+                }
+
+                .header h1 {
+                      font - size: 40px;
+                }
+                button{
+                  margin-top: 50px;
+                }
+            </style>
     </head>
     <body>
-        <h1>Hello, World!</h1>
+      <div class="header">
+          <h1>Ideal pet match</h1>
+      </div>
+        <marquee>Welcome to my worst website</marquee>
+        <div class="navbar">
+            <a href="#" class="active">Dogs</a>
+            <a href="#">Cats</a>
+            <a href="#">Rabbits</a>
+        </div>
+        <button type="button" onclick="imageShow()">Click to see me</button>
+        <div>
+            <img src="dog.jpg" id="image" alt="dog" width="100%" height="333" style="display:none;" />
+        </div>
+        <div class="links-unordered">
+            <a class="toggle-button" href="#">You will love me because</a>
+            <ul style="display:none; margin:0px 35%">
+              <li>I am friendly</li>
+              <li>I will not follow your orders</li>
+              <li>I will sleep on your bed</li>
+              <li><a href="https://www.dog.com/">You can start shopping for me here</a></li>
+            </ul>
+          </div>
+
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </html>
