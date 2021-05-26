@@ -1,7 +1,7 @@
 setTimeout(function(){show('hold-on')},3000);
 setTimeout(function(){show('meant-to')},4000);
-setTimeout(function(){if(document.hello != 'hello'){alert('Hello, Warren!');document.hello = 'hello'}},6000);
-setTimeout(function(){if(document.either != 'either'){alert('thats not it either');document.either = 'either'}},7000);
+setTimeout(function(){alert('Hello, Warren!')},6000);
+setTimeout(function(){alert('thats not it either')},7000);
 // setTimeout(function(){},1000);
 setTimeout(function(){
     show('button1');
