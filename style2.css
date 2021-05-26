@@ -1,9 +1,9 @@
 #content {
-    padding-top: 25%;
+    padding-top: 0%;
     text-align: center;
     font-size: 48px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-family: 'Comic Sans MS', cursive;
     text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
 }
 

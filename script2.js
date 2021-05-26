@@ -1,6 +1,6 @@
 var wordsforyou = [
-	'Hello World',
-	'UwU'
+	'UwU Hello World! UwU',
+	'UwU !dlroW olleH UwU'
 ]
 
 var contentDiv = document.getElementById('content');
