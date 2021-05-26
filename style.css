@@ -1,4 +1,8 @@
 body {
-    text-align: center;
-    padding-top: calc(50vh - 2em);
+}
+.RedText {
+    font-family:courier; color:red; font-weight: 100;
+}
+.tiny {
+    font-size:10px;
 }
