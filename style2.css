@@ -1,0 +1,13 @@
+#content {
+    padding-top: 25%;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
