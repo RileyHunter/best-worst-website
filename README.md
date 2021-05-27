@@ -4,7 +4,7 @@
 ### 
 [Nicole Chan](https://github.com/RileyHunter/best-worst-website/pull/8)
 
-### Certificate for Most Hideous
+### Most Hideous
 #### Most hideous to look at
 [Emily Byron-Brodie](https://github.com/RileyHunter/best-worst-website/pull/5)
 
