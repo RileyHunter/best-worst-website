@@ -1,4 +1,45 @@
 body {
-    text-align: center;
-    padding-top: calc(50vh - 2em);
+}
+.RedText {
+    font-family:courier; color:red; font-weight: 100;
+}
+.tiny_text {
+    font-size:12px;
+}
+.BUTTON {
+    border:2px outset red;
+    padding:10px;
+    background-color:red;
+    color:green;
+    font-weight: bolder;
+}
+.BUTTON:hover{
+    cursor:crosshair;
+}
+.BUTTON.__blu_e {
+    color:orange;
+    background-color: blue;
+}
+.BUTTON-purpl{
+    border:2px outset red;
+    padding:10px;
+    background-color:red;
+    color:green;
+    font-weight: bolder;
+    color:burlywood;
+    background-color: purple;;
+}
+#button4{
+    position:absolute;
+}
+#hello-world {
+    width:100%;
+    height:500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#hello-world img {
+    width: calc(100% / 13);
 }
