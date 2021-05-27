@@ -1,3 +1,44 @@
+# Awards
+
+## Grand Certificate of Awfulness for Worst Website
+### 
+[Nicole Chan](https://github.com/RileyHunter/best-worst-website/pull/8)
+
+### Certificate for Most Hideous
+#### Most hideous to look at
+[Emily Byron-Brodie](https://github.com/RileyHunter/best-worst-website/pull/5)
+
+### Most Wasted Effort 
+#### Implemented with the highest standards of code or the most complexity
+[Mathew Donley](https://github.com/RileyHunter/best-worst-website/pull/3)
+
+### Least Legible
+#### Most difficult or frustrating to try and read
+[Michael O'Hara](https://github.com/RileyHunter/best-worst-website/pull/7)
+
+### Most Creative
+#### Very creative (in a nasty way)
+[Emily Byron-Brodie](https://github.com/RileyHunter/best-worst-website/pull/5)
+
+### Least Changes
+#### Proved how efficiently they could showcase bad code and design
+[Jagmeet Kaur](https://github.com/RileyHunter/best-worst-website/pull/6)
+
+### Worst User Experience
+#### Flagrantly violated Nielsen's Usability Heuristics
+[Nicole Chan](https://github.com/RileyHunter/best-worst-website/pull/8)
+
+### Great Minds
+#### Most like someone else's website
+[Mathew Donley](https://github.com/RileyHunter/best-worst-website/pull/3) & [Riley Hunter](https://github.com/RileyHunter/best-worst-website/pull/4)
+
+### This Feels Sadly Familiar
+#### Not finishing on time, or not following the instructions
+[Jagmeet Kaur](https://github.com/RileyHunter/best-worst-website/pull/6)
+
+---
+
+
 # best-worst-website
 An arena for the "best worst" Hello World webpage you can think of
 
